@@ -1,0 +1,60 @@
+{
+  "name": "uradical-themes",
+  "displayName": "uRadical Themes",
+  "description": "Color themes for VS Code based on the uRadical brand palette — vibrant and pastel variants in light and dark.",
+  "version": "1.0.0",
+  "publisher": "uRadical",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "uradical",
+    "dark",
+    "light",
+    "pastel"
+  ],
+  "galleryBanner": {
+    "color": "#0C1A50",
+    "theme": "dark"
+  },
+  "homepage": "https://uradical.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uradical/vscode-uradical-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uradical/vscode-uradical-themes/issues"
+  },
+  "pricing": "Free",
+  "contributes": {
+    "themes": [
+      {
+        "label": "uRadical Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/uradical-dark-color-theme.json"
+      },
+      {
+        "label": "uRadical Light",
+        "uiTheme": "vs",
+        "path": "./themes/uradical-light-color-theme.json"
+      },
+      {
+        "label": "uRadical Pastel Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/uradical-pastel-dark-color-theme.json"
+      },
+      {
+        "label": "uRadical Pastel Light",
+        "uiTheme": "vs",
+        "path": "./themes/uradical-pastel-light-color-theme.json"
+      }
+    ]
+  }
+}

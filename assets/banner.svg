@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5DB1FF"/>
+      <stop offset="36%" stop-color="#9F72E1"/>
+      <stop offset="68%" stop-color="#F659A8"/>
+      <stop offset="100%" stop-color="#E1C631"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0C1A50"/>
+      <stop offset="100%" stop-color="#080E26"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect y="306" width="1280" height="14" fill="url(#brand)"/>
+  <g opacity="0.16">
+    <circle cx="1080" cy="90" r="160" fill="#9F72E1"/>
+    <circle cx="1200" cy="220" r="120" fill="#F659A8"/>
+    <circle cx="980" cy="240" r="90" fill="#5DB1FF"/>
+  </g>
+  <image href="uradical-logo.png" x="90" y="62" height="104" width="504"
+         preserveAspectRatio="xMidYMid meet"/>
+  <text x="94" y="220" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="40" font-weight="600" fill="url(#brand)">VS Code Themes</text>
+  <text x="96" y="266" font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="22" fill="#8B94BE">Vibrant &amp; pastel · light &amp; dark</text>
+</svg>

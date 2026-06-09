@@ -1,0 +1,10 @@
+# Sources and tooling that shouldn't ship in the .vsix
+node_modules/**
+package-lock.json
+scripts/**
+assets/*.svg
+assets/uradical-logo.png
+.vscode/**
+.gitignore
+.DS_Store
+**/.DS_Store

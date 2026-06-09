@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0%" stop-color="#16276B"/>
+      <stop offset="100%" stop-color="#0C1A50"/>
+    </radialGradient>
+  </defs>
+
+  <!-- editor card -->
+  <rect width="256" height="256" rx="48" fill="url(#glow)"/>
+
+  <!-- window dots -->
+  <circle cx="52" cy="48" r="8.5" fill="#F659A8"/>
+  <circle cx="80" cy="48" r="8.5" fill="#E1C631"/>
+  <circle cx="108" cy="48" r="8.5" fill="#5DB1FF"/>
+
+  <!-- syntax-highlighted code lines -->
+  <g>
+    <!-- line 1 -->
+    <rect x="50"  y="88"  width="42" height="18" rx="9" fill="#5DB1FF"/>
+    <rect x="104" y="88"  width="68" height="18" rx="9" fill="#F659A8"/>
+    <!-- line 2 (indented) -->
+    <rect x="80"  y="126" width="34" height="18" rx="9" fill="#9F72E1"/>
+    <rect x="126" y="126" width="58" height="18" rx="9" fill="#E1C631"/>
+    <!-- line 3 (indented) -->
+    <rect x="80"  y="164" width="52" height="18" rx="9" fill="#E1C631"/>
+    <rect x="144" y="164" width="40" height="18" rx="9" fill="#5DB1FF"/>
+    <!-- line 4 -->
+    <rect x="50"  y="202" width="28" height="18" rx="9" fill="#9F72E1"/>
+  </g>
+</svg>
